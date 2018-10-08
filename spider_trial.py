@@ -1,3 +1,5 @@
+#this is the first web crawler I made, and was used as a starting point
+
 import requests
 from bs4 import BeautifulSoup
 def web(page,WebUrl):
