@@ -65,35 +65,74 @@ def clingen_3(page, WebUrl3):
         code = requests.get(url)
         plain = code.text
         s = BeautifulSoup(plain, "html.parser")
-        for thing in s.findAll('div', attrs={'class':'colHeader lvl1 row'}):
-            thing.get('span')
-            print(thing.text)
 
-#this is a test of the clingen_start function
+        #getting data at top of table
+        for head in s.findAll('div', attrs={'class':'colHeader lvl1 row'}):
+            head.get('span')
+            print(head.text)
+
+        #getting column info
+        for col in s.findAll('div', attrs={'class':'colHeader data lvl2 row'}):
+            print(col.text)
+
+        #getting numbered headers
+        for numhead in s.findAll('div', attrs={'class':'colHeader lvl3 row'}):
+            for words in numhead.findAll('div', attrs={'class':'sectionName h4 text-left col-xs-12'}):
+                print(words.text)
+            
+
+
+
+
+
+#this is a test of the clingen_start function to be manipulated for development
 
 def clingen_test(Start_Url):
+    #gaining access to page, parsing info and turning info into readable data
     url = Start_Url
     code = requests.get(url)
     plain = code.text
     s = BeautifulSoup(plain, "html.parser")
-    #for link in s.findAll('div', attrs={'class': 'col-sm-5'}):
-     #   link.get('dl')
-      #  print(link.text)
 
-    for link in s.findAll('div', attrs={'class': 'panel panel-primary'} ): #'class': 'panel panel-primary'
-        #print(link.text)
-        for item in link.findAll('a'):
-            if str(item.get('href'))[5:13] != 'conditions':
-                print(str(item.get('href')))
+    #getting info at top of page
+    #for top in s.findAll('div', attrs={'class': 'col-sm-5'}):
+     #   top.get('dl')
+      #  print(top.text)
+
+    #getting info stored in table
+    #for info in s.findAll('div', attrs={'class':'panel panel-primary'}):
+     #   info.get('href')
+      #  print(info.text)
+
+    #getting desired links on page
+    #for link in s.findAll('div', attrs={'id': 'accordion'} ): #'class': 'panel panel-primary'
+     #   for item in link.findAll('a'):
+      #      if str(item.get('href'))[4:14] != 'conditions':
+       #         if str(item.get('href'))[0] != 'h':
+        #            if str(item.get('href'))[0] != 'N':
+         #               print('https://search.clinicalgenome.org' + str(item.get('href')))
+          #      else:
+           #         print(str(item.get('href')))
+
+    for thing in s.findAll('a', {'class': "btn btn-xs btn-success"}):  # table': "panel-body table table-hover
+       if thing.get('href')[0] != 'h':
+          clingen_2(1, 'https://search.clinicalgenome.org' + thing.get('href'))
+       else:
+            #print(thing.get('href'))
+            if thing.get('href')[-1] == 't':
+                clingen_1(1, thing.get('href'))
+            else:
+               clingen_3(1, thing.get('href'))
+
             #str(item.get('href'))
             #if item.text[0] != 'h':
-                #print('https://search.clinicalgenome.org' + str(item.get('href')))
+             #   print('https://search.clinicalgenome.org' + str(item.get('href')))
             #else:
              #   if item.get('href')[-1] == 't':
               #      clingen_1(1, item.get('href'))
                # else:
                 #    clingen_3(1, item.get('href'))
-            print(item.text)
+
       #  for button in link:
        #    button.get('href')
         #    print(button)
