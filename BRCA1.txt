@@ -1,0 +1,492 @@
+This file is for the gene: BRCA1
+
+
+GENE/GENE PANEL:
+
+BRCA1, 
+BRCA2
+
+
+
+Condition:
+
+        Hereditary Breast and Ovarian Cancer
+      
+
+
+GENE⇔DISEASE PAIRS:
+
+
+BRCA1⇔604370
+
+
+BRCA2⇔612555
+
+
+
+Topic          Narrative Description of Evidence          Ref          
+1. What is the nature of the threat to health for an individual carrying a deleterious allele?
+
+Prevalence of the Genetic Disorder
+
+          For women, lifetime risk estimates indicate that 12.3% will develop breast cancer and 2.8% will die from it, while 1.4% will develop ovarian cancer and 1% will die from it. Among these breast and ovarian cancer cases, BRCA mutations have a prevalence of 3% and 10%, respectively.
+      
+
+1
+2
+
+
+
+          Clinical Features
+(Signs / symptoms)
+
+
+
+
+
+
+
+BRCA1 and BRCA2 mutations are associated with increased risks of breast, ovarian, fallopian tube, and primary peritoneal cancers in women. These mutations are also associated with breast cancer and, to a lesser extent, prostate cancer, in males. Both sexes may also be at an increased risk of pancreatic cancer. BRCA mutations are associated with a strong family history of breast and ovarian cancers and are found more frequently in the Ashkenazi Jewish population.
+      
+
+
+
+
+
+
+
+
+
+
+
+
+1
+3
+
+
+
+
+
+
+          Natural History
+(Important subgroups & survival / recovery)
+
+
+
+
+
+
+
+BRCA-related breast and ovarian cancers occur at a younger age, typically prior to age 50, and breast cancers are more likely to be âtriple-negativeâ (i.e. estrogen and progesterone receptor and HER2 negative). Compared to non-carriers with breast cancer, BRCA1 mutation carriers have significantly decreased overall survival rates both in the short- and long-term, though similar association was not detected for BRCA2 mutation carriers.
+      
+
+
+
+
+
+
+
+
+
+
+
+
+1
+3
+
+
+
+
+
+
+        2. How effective are interventions for preventing harm?
+Information on the effectiveness of the recommendations below was not provided unless otherwise stated.
+
+
+
+          Patient Management
+        
+
+
+
+
+
+
+
+Chemoprevention medications (e.g. tamoxifen, raloxifene) have been shown to reduce the incidence of breast cancer in high-risk women in the general population, but their effectiveness has not been assessed in the context of BRCA mutations.
+              (Tier 1)
+
+
+
+
+
+
+Prophylactic surgery (e.g. bilateral mastectomy or salpingo-oophorectomy) has been shown to substantially reduce the risk for breast or ovarian cancer in both high-risk women and those who are BRCA mutation carriers. Breast cancer risk was reduced by 85-100% with mastectomy and by 37% to 100% with oophorectomy. Ovarian cancer risk was reduced by 69-100% with oophorectomy. Breast cancer-specific mortality was reduced by 81-100% after mastectomy and all-cause mortality was reduced by 55-100% after oophorectomy.
+              (Tier 1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+4
+5
+
+
+
+
+
+
+
+1
+4
+6
+
+
+
+
+
+Surveillance
+
+
+
+
+
+
+More frequent and intensive breast cancer screening, including clinical breast exams, mammography, and MRI starting at age 25. However, no screening methods have been shown to be effective at reducing breast cancer incidence among BRCA mutation carriers.
+              (Tier 1)
+
+
+
+
+
+
+Screening methods for ovarian cancer have not been shown to be effective among women with BRCA mutations; however, annual gynecological exam, vaginal ultrasonography, and serum 125 (CA-125) can be used for screening.
+              (Tier 1)
+
+
+
+
+
+
+Male carriers are recommended to have an annual breast exam. Information on effectiveness was not provided.
+              (Tier 2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+4
+5
+
+
+
+
+
+
+
+7
+
+
+
+
+
+
+
+8
+
+
+
+
+
+Family Management
+
+
+
+
+
+
+Family members at risk of carrying a BRCA mutation should undergo genetic testing to determine their genetic risk
+              (Tier 1)
+
+
+
+
+
+
+First degree relatives of a carrier of a BRCA mutation who have not undergone genetic testing themselves are recommended to undergo the same surveillance as carriers.
+              (Tier 2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+4
+
+
+
+
+
+
+
+8
+
+
+
+
+
+Circumstances to Avoid
+
+
+
+
+
+
+Oral contraceptive use has been shown to be protective against ovarian cancer. However, some studies have suggested that oral contraceptive use increases the risk of breast cancer in women with BRCA mutations, though this effect has not been consistently demonstrated.
+              (Tier 2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+8
+9
+
+
+
+
+
+3. What is the chance that this threat will materialize?
+
+Mode of Inheritance
+
+
+
+
+
+
+Autosomal Dominant
+      
+
+
+
+
+
+
+
+
+
+
+
+
+         
+    
+
+
+
+
+Prevalence of Genetic Mutations
+
+
+
+
+
+
+
+          BRCA mutations have an estimated 0.2-0.3% prevalence in the general population and 2.1% among women with Ashkenazi Jewish heritage.
+              (Tier 1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+
+
+
+
+
+
+          PenetranceORRelative Risk
+(Include any high risk racial or ethnic subgroups)
+
+
+
+
+
+
+
+
+          Clinically significant mutations in BRCA1 are associated with a 46-57% risk of breast cancer and 40% risk of ovarian cancer by age 70. BRCA2 mutations are associated with a 50% risk of breast cancer and almost 20% risk of ovarian cancer by age 70.
+              (Tier 1)
+
+
+
+
+
+
+
+          Information on relative risk was unavailable.
+      
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+1
+10
+
+
+
+
+
+
+
+         
+    
+
+
+
+
+
+
+
+Expressivity
+
+
+
+
+
+
+The pathologic and clinical characteristics of tumors can differ by the type of mutation, including progression and variability in estrogen, progesterone, and human epidermal growth factor receptor status.
+              (Tier 3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+
+
+
+
+
+4. What is the Nature of the Intervention?
+
+Nature of Intervention
+
+
+
+
+
+
+The interventions identified in this report include prophylactic surgery to remove target organs, invasive screening tests, and medications with potential side effects.
+      
+
+
+
+
+
+
+
+
+
+
+
+
+         
+    
+
+
+
+
+5. Would the underlying risk or condition escape detection prior to harm in the settting of recommended care?
+
+Chance to Escape Clinical Detection
+
+
+
+
+
+
+Current screening procedures for women of average risk are not likely to detect breast and ovarian cancer at an early enough stage to cure the disease. The age at onset of breast cancer is typically prior to age 50, before the start of typical surveillance among average risk populations. Ovarian cancer is typically metastatic when diagnosed, thus risk-reducing BSO bilateral salpingo-oophorectomy is currently the only effective strategy to reduce the risk of dying from ovarian cancer.
+              (Tier 1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+4
+
+
+
+
